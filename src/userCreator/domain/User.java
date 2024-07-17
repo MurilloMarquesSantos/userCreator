@@ -1,5 +1,7 @@
 package userCreator.domain;
 
+import userCreator.exceptions.AlreadyExists;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,13 +20,14 @@ public class User {
         this.password = password;
     }
 
-    public static void createNewUser(String name, String userEmail, String password) {
+    public static void createNewUser(String name, String userEmail, String password) throws AlreadyExists {
         User newUser = new User(name, userEmail, password);
         for (User user : userDataBase.userDB) {
-            if (user.getUserEmail().equalsIgnoreCase(newUser.getUserEmail())){
-
+            if (user.getUserEmail().equalsIgnoreCase(newUser.getUserEmail())) {
+                throw new AlreadyExists();
             }
         }
+        userDataBase.userDB.add(newUser);
 
 
     }

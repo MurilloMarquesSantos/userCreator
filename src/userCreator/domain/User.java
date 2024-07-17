@@ -62,7 +62,10 @@ public class User {
     }
 
     public static void showUsers() {
-        System.out.println(userDataBase.userDB);
+        for (User user : userDataBase.userDB) {
+            System.out.println(user);
+
+        }
     }
 
 

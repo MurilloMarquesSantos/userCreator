@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9903c6-c9e8-462d-8b75-3f83a2041385" name="Changes" comment="Creating the password validation regex">
-      <change afterPath="$PROJECT_DIR$/src/userCreator/test/UserCreatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca9903c6-c9e8-462d-8b75-3f83a2041385" name="Changes" comment="Fixing some bugs and cleaning up the code">
       <change beforePath="$PROJECT_DIR$/src/userCreator/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userCreator/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userCreator/validation/UserPasswordRegex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userCreator/test/UserCreatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userCreator/test/UserCreatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +73,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721224525190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixing some bugs and cleaning up the code">
+      <option name="closed" value="true" />
+      <created>1721226167365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721226167365</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the user domain" />
     <MESSAGE value="Creating an exception" />
     <MESSAGE value="Creating the password validation regex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the password validation regex" />
+    <MESSAGE value="Fixing some bugs and cleaning up the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing some bugs and cleaning up the code" />
   </component>
 </project>

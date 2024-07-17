@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9903c6-c9e8-462d-8b75-3f83a2041385" name="Changes" comment="" />
+    <list default="true" id="ca9903c6-c9e8-462d-8b75-3f83a2041385" name="Changes" comment="Creating the password validation regex">
+      <change afterPath="$PROJECT_DIR$/src/userCreator/test/UserCreatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userCreator/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userCreator/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userCreator/validation/UserPasswordRegex.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.UserCreatorTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
@@ -35,6 +51,37 @@
       <option name="presentableId" value="Default" />
       <updated>1721222601917</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creating the user domain">
+      <option name="closed" value="true" />
+      <created>1721223394460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721223394460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creating an exception">
+      <option name="closed" value="true" />
+      <created>1721223810319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721223810319</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creating the password validation regex">
+      <option name="closed" value="true" />
+      <created>1721224525190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721224525190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating the user domain" />
+    <MESSAGE value="Creating an exception" />
+    <MESSAGE value="Creating the password validation regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the password validation regex" />
   </component>
 </project>
